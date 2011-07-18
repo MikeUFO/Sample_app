@@ -5,11 +5,15 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 #gem 'sqlite3'
 gem 'gravatar_image_tag'
 gem 'will_paginate'
+gem 'rb-fchange'
+gem 'rb-notifu'
+gem 'growl'
 
 group :development do
   gem 'rspec-rails'
   gem 'annotate'
   gem 'faker'
+  gem 'guard-rspec'
 end
 
 group :test do
